@@ -1,30 +1,16 @@
-# Compiled files
-/target/
+# Ignore 'target' directory in any subdirectory
+**/target/
 
-# Rustdoc output
-/doc/
+# General Rust ignores
+**/*.rs.bk
 
-# Cargo lock file (uncomment if this is a library)
-# Cargo.lock
+# Ignore Cargo.lock files for each project (if applicable)
+**/Cargo.lock
 
-# Backup files created by editors
+# Other general ignores (editors, operating systems, etc.)
 *.swp
-*.swo
 *.bak
-*.orig
-
-# Ignore Vim temporary files
-*.vim
-
-# Ignore .env file containing environment variables
+.DS_Store
 .env
-
-# Ignore IDE project files
 .idea/
 .vscode/
-
-# Ignore all log files
-*.log
-
-# MacOS specific
-.DS_Store
