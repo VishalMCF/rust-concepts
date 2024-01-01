@@ -1,0 +1,30 @@
+# Compiled files
+/target/
+
+# Rustdoc output
+/doc/
+
+# Cargo lock file (uncomment if this is a library)
+# Cargo.lock
+
+# Backup files created by editors
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Ignore Vim temporary files
+*.vim
+
+# Ignore .env file containing environment variables
+.env
+
+# Ignore IDE project files
+.idea/
+.vscode/
+
+# Ignore all log files
+*.log
+
+# MacOS specific
+.DS_Store
