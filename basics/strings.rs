@@ -34,4 +34,8 @@ fn main() {
     dog.push(' ');
     dog.push_str("the dog");
     println!("{}", dog); // Max the dog
+
+    // replace function()
+    let dog = dog.replace("the", " is my ");
+    println!("{}", dog); // Max is my dog
 }
